@@ -1,4 +1,4 @@
-# <img src="assets/readme/rose.svg" alt="RoSE" style="height:1em; vertical-align:bottom;"/> (RoSE) Monocular Normal Estimation via Shading Sequence Estimation
+# <img src="assets/readme/rose.svg" alt="RoSE" style="height:1em; vertical-align:bottom;"/> RoSE: Monocular Normal Estimation via Shading Sequence Estimation
 
 <p align="center">
   <a href="https://zongrui.page/">Zongrui Li</a><sup>1*</sup> ·
@@ -32,4 +32,29 @@
 
 > We present <b>RoSE</b>, a method using a <b>video generative model</b> for <b>monocular normal map estimation</b>, built on a new paradigm that reformulates normal estimation as a <b>shading sequence estimation</b> task.
 
-Code for "Monocular Normal Estimation via Shading Sequence Estimation". Coming Soon.
+Code for "Monocular Normal Estimation via Shading Sequence Estimation".
+
+---
+
+## Installation
+
+```bash
+conda create -n RoSE python=3.10 -y
+conda activate RoSE
+pip install -r requirements.txt
+pip install torch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 --index-url https://download.pytorch.org/whl/cu121
+```
+
+---
+
+## Checkpoint
+
+Download our checkpoints from [Hugging Face](https://huggingface.co/Xinhua694/RoSE).
+
+---
+
+## Test
+
+```bash
+python test.py --input_dir YOUR_DATA_DIR --src_path YOUR_WEIGHTS_DIR
+```
