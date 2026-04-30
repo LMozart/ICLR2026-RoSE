@@ -1,4 +1,4 @@
-# <img src="assets/readme/rose.svg" alt="RoSE" style="height:1em; vertical-align:bottom;"/> (RoSE) Monocular Normal Estimation via Shading Sequence Estimation
+# <img src="assets/readme/rose.svg" alt="RoSE" style="height:1em; vertical-align:bottom;"/> RoSE: Monocular Normal Estimation via Shading Sequence Estimation
 
 <p align="center">
   <a href="https://zongrui.page/">Zongrui Li</a><sup>1*</sup> ·

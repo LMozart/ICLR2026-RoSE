@@ -1,0 +1,1 @@
+from .pipeline_rose_diffusion import RoSEDiffusionPipeline
