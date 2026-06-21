@@ -25,7 +25,7 @@
 <h3 align="center">
   <a href="https://arxiv.org/abs/2602.09929">arXiv</a> | 
   <a href="https://xinhua694.github.io/RoSE.github.io/">Project Page</a> | 
-  <a href="#">Dataset</a>
+  <a href="https://huggingface.co/datasets/dennis98/MultiShade">Dataset</a>
 </h3> 
 
 ![teaser](assets/readme/teaser.png)
@@ -35,6 +35,9 @@
 Code for "Monocular Normal Estimation via Shading Sequence Estimation".
 
 ---
+
+## News🎉
+[Jun 21, 2026] The dataset, MultiShade, is released, check [link](https://huggingface.co/datasets/dennis98/MultiShade).
 
 ## Installation
 
